@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("i1.jpg");
+    background-size: cover;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing:  border-box;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+}
+.txtb input,.txtb textarea{
+    outline: none;
+    border: none;
+    background: none;
+}
+#menu{
+    margin: 0;
+    padding: 0;
+	margin-top: 0px;
+	text-align: center;
+  }
+  #menu li{
+    list-style: none;
+    display: inline-block;
+  }
+  #menu li a{
+    text-decoration: none;
+    position: relative;
+    color: #dadada;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+  }
+  #menu li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px solid #210752;
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+  }
+  #menu li a:hover:before{
+    right: 0;
+  }
+  content {
+    padding-bottom: 10px;
+  }
+
